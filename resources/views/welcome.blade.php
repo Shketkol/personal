@@ -52,13 +52,13 @@
                         <a class="nav-link" href="#about-block">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">services</a>
+                        <a class="nav-link" href="#services-block">services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">portfolio</a>
+                        <a class="nav-link" href="#portfolio-block">portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="#contact-block">contact</a>
                     </li>
 
                 </ul>
@@ -213,7 +213,7 @@
 
     <!--  ====================== Start Services Area =============================  -->
 
-    <section class="services-area">
+    <section class="services-area" id="services-block">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center services-title">
@@ -295,7 +295,7 @@
 
     <!--  ======================= Project Area =============================  -->
 
-    <section class="project-area">
+    <section class="project-area" id="portfolio-block">
         <div class="container">
             <div class="project-title pb-5">
                 <h1 class="text-uppercase title-h1">Recently Done Project</h1>
@@ -459,7 +459,7 @@
     <!--  ======================= End Project Area =============================  -->
 
     <!--  ========================== Subscribe me Area ============================  -->
-    <section class="subscribe-us-area">
+    <section class="subscribe-us-area" id="contact-block">
         <div class="container subscribe">
             <div class="row">
                 <div class="col-lg-12 text-center subscribe-title">
@@ -472,7 +472,7 @@
                 <form class="w-50">
                     <div class="row d-flex flex-row flex-wrap">
                         <div class="col-lg-8 col-sm-6 input-textbox">
-                            <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                            <input type="text" id="txtemail" class="form-control" placeholder="Email" style="width: 100%">
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <div class="btn-submit">
