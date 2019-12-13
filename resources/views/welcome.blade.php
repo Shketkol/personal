@@ -40,7 +40,7 @@
 <header class="header_area">
     <div class="main-menu">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="/"><img src="./img/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -83,7 +83,7 @@
                     <h4 class="title-text text-uppercase">Software Developer</h4>
                     <div class="site-buttons">
                         <div class="d-flex flex-row flex-wrap">
-                            <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                            <a href="CV.pdf" download type="button" class="btn button secondary-button text-uppercase">Get cv</a>
                         </div>
                     </div>
                 </div>
@@ -113,17 +113,20 @@
                     </h2>
                     <div class="paragraph py-4 w-75">
                         <p class="para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel
-                            possimus officia maiores perferendis ut! Quos, perspiciatis.
+                            Hello. My name is Nick. I From Ukraine. I've more experience in a lot of Web technologies such as
+                            Languages: PHP (v5.5+), JavaScript, Python (Junior)
+                            Frameworks: Yii1/2, Flask (Python), NodeJs, AngularJs, Symfony, Laravel, React, VueJs
+                            Databases: MySQL, Redis
+                            Libraries & Technologies: Websockets, AJAX, jQuery, Twitter Bootstrap, RabbitMQ, HTML\CSS, SASS
+                            OS: Linux (Ubuntu), Windows
                         </p>
                         <p class="para">
-                            It is a long established fact that a reader will be distracted by the readable content
-                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                            here
+                            Working with Git, Composer. Developed REST API and use this for mobile APPS.
+                            Written parsers to sites with private content (make mini price-aggregate site) (using CURL, phpQuery or json), writing REST APIs (in Yii2, Laravel),
+                            connecting third-party APIs (Payment systems, Facebook, Google, Zendesk and others). Worked with Microservice architecture.
                         </p>
                     </div>
-                    <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                    <a href="CV.pdf" download class="btn button primary-button text-uppercase">Download cv</a>
                 </div>
             </div>
         </div>
@@ -218,10 +221,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center services-title">
                     <h1 class="text-uppercase title-text">Services Offers</h1>
-                    <p class="para">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered alteration in some form, by injected humour
-                    </p>
                 </div>
             </div>
             <div class="container services-list">
@@ -463,20 +462,19 @@
         <div class="container subscribe">
             <div class="row">
                 <div class="col-lg-12 text-center subscribe-title">
-                    <h4 class="text-uppercase">Get Update From anywhere</h4>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-                        consequuntur.</p>
+                    <h4 class="text-uppercase">Fill youur email and I'll call you</h4>
                 </div>
             </div>
             <div class="d-sm-flex justify-content-center">
-                <form class="w-50">
+                <form class="w-50" action="/send" method="post" id="contact-form">
+                    {{ csrf_field() }}
                     <div class="row d-flex flex-row flex-wrap">
                         <div class="col-lg-8 col-sm-6 input-textbox">
-                            <input type="text" id="txtemail" class="form-control" placeholder="Email" style="width: 100%">
+                            <input type="email" id="txtemail" class="form-control" placeholder="Email" name="email" style="width: 100%">
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="btn-submit">
-                                <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                            <div class="btn-submit float-left">
+                                <button type="submit" class="btn btn-success float-right">Send</button>
                             </div>
                         </div>
                     </div>
@@ -496,17 +494,9 @@
             <div class="site-logo text-center py-4">
                 <a href="#"><img src="./img/logo.png" alt="logo"></a>
             </div>
-            <div class="social text-center">
-                <h5 class="text-uppercase">Follow me</h5>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
             <div class="copyrights text-center">
                 <p class="para">
-                    Copyright ©2019 All rights reserved | This template is made with by
-                    <a href="#"><span style="color: var(--primary-color);">Daily Tuition</span></a>
+                    Copyright ©2019 All rights reserved
                 </p>
             </div>
         </div>

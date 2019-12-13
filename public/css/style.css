@@ -15,6 +15,9 @@
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 30%;
+}
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
@@ -122,6 +125,7 @@
     height: 100px;
     cursor: pointer;
     transition: transform .4s ease;
+    position: relative;
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img{

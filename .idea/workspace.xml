@@ -2,20 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4231e0a3-0042-4fa2-ad9f-ba3ceb9ab717" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/personal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/511eb07bbd88b29b3499e2567fa64200dc01f4ec.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/511eb07bbd88b29b3499e2567fa64200dc01f4ec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpoption/phpoption/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/LazyOption.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/LazyOption.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/None.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/None.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Option.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Option.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Some.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpoption/phpoption/src/PhpOption/Some.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/.php_cs.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/.php_cs.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/Highlighter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/Highlighter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/JsonRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/JsonRef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/Language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/abnf.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/abnf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/accesslog.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/accesslog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/angelscript.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/angelscript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/arcade.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/arcade.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/arduino.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/arduino.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/basic.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/basic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/brainfuck.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/brainfuck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/coffeescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/coffeescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/coq.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/coq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/cpp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/crystal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/dart.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/dart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/diff.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/diff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/elixir.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/elixir.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/excel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/excel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/go.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/go.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/handlebars.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/handlebars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/javascript.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/javascript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/json.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/json.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/kotlin.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/kotlin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/livescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/livescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/lsl.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/lsl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/markdown.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/markdown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/mercury.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/mercury.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/mipsasm.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/mipsasm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/pony.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/pony.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/powershell.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/powershell.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/python.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/python.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/shell.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/shell.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/sqf.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/sqf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/sql.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/sql.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/stata.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/stata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/stylus.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/stylus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/swift.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/swift.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/twig.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/twig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/typescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/typescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/vbnet.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/vbnet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/xml.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/xml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/yaml.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/Highlight/languages/yaml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/styles/arduino-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/HighlightAutoTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/HighlightAutoTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/angelscript/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/angelscript/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/arcade/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/arcade/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/ldif/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/ldif/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/livescript/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/livescript/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/stylus/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/detect/stylus/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/accesslog/default.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/accesslog/default.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/accesslog/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/accesslog/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/cpp/string-literals.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/cpp/string-literals.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/cpp/string-literals.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/cpp/string-literals.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/fortran/numbers.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/fortran/numbers.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/fortran/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/fortran/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/javascript/object-attr.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/javascript/object-attr.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/javascript/object-attr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/javascript/object-attr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/python/f-strings.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/python/f-strings.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/python/f-strings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/python/f-strings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/tap/yaml-block.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/tap/yaml-block.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/twig/filter_with_underscore.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/twig/filter_with_underscore.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/twig/template_tags.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/twig/template_tags.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/typescript/functions.expect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/typescript/functions.expect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/typescript/functions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/test/markup/typescript/functions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/tools/get_language_definitions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/tools/get_language_definitions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scrivo/highlight.php/tools/process.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scrivo/highlight.php/tools/process.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -112,6 +199,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/telegram-bot/api" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Uto4LqsFi1FSJVU9aUl7tYrgRT" />
@@ -124,13 +212,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/brands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/brands" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/public/img/brands" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -166,7 +256,10 @@
       <option name="presentableId" value="Default" />
       <updated>1576185060153</updated>
       <workItem from="1576185064989" duration="8322000" />
-      <workItem from="1576224756380" duration="922000" />
+      <workItem from="1576224756380" duration="1019000" />
+      <workItem from="1576228850337" duration="21000" />
+      <workItem from="1576233874938" duration="1276000" />
+      <workItem from="1576236653336" duration="4337000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576224334869</created>
@@ -175,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576224334869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1576225714632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576225714632</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,17 +285,26 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="149" width="1207" height="807" key="CommitChangelistDialog2" timestamp="1576224322228">
+    <state x="746" y="84" width="476" height="936" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576236684872">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="385" y="149" width="1207" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576224322228" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576224338197">
+    <state x="746" y="84" width="476" height="936" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576236684872" />
+    <state x="385" y="149" width="1207" height="532" key="CommitChangelistDialog2" timestamp="1576225714217">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1576224338197" />
+    <state x="385" y="149" width="1207" height="532" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576225714217" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576228867525">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576228867525" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576225716850">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1576225716850" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1576185067401">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

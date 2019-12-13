@@ -58,4 +58,28 @@ $(document).ready(function () {
 
     navbarFixed();
 
+    $('.contact-form').submit(function (event) {
+        event.preventDefault();
+
+        var form = $(this).serialize();
+        var modal = $(this);
+
+        $.ajax({
+            type: "POST",
+            url: "/send",
+            data: form,
+            success: function(data) {
+                var error = modal.find('.errors');
+                var error_text = '';
+                data.forEach(function (item, i, arr) {
+                    error_text = error_text + '<li>' + item + '</li>';
+                });
+                error.find('ul').html(error_text);
+                error.show();
+            }
+        });
+
+        return false;
+    });
+
 });
