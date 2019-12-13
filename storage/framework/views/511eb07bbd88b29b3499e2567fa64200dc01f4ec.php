@@ -34,6 +34,17 @@
 
 <body>
 
+<!--  ======================= Start Alert Area ============================== -->
+<?php if(Session::has('success')): ?>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Thanks!</strong> I'll send you.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+<?php endif; ?>
+
+<!--  ======================= End Alert Area ============================== -->
 
 <!--  ======================= Start Header Area ============================== -->
 
