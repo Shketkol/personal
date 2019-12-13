@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4231e0a3-0042-4fa2-ad9f-ba3ceb9ab717" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/511eb07bbd88b29b3499e2567fa64200dc01f4ec.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/511eb07bbd88b29b3499e2567fa64200dc01f4ec.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +168,7 @@
       <workItem from="1576224756380" duration="1019000" />
       <workItem from="1576228850337" duration="21000" />
       <workItem from="1576233874938" duration="1276000" />
-      <workItem from="1576236653336" duration="7066000" />
+      <workItem from="1576236653336" duration="7350000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576224334869</created>
@@ -242,9 +244,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576185067401" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1576220994974">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1576258963502">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576220994974" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576258963502" />
   </component>
 </project>
