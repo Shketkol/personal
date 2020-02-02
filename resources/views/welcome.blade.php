@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mykola Shkit - Portfolio</title>
 
@@ -88,7 +88,7 @@
     <section class="site-banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 site-title">
+                <div class="col-lg-6 col-md-12 col-xs-12     site-title">
                     <h3 class="title-text">Hey</h3>
                     <h1 class="title-text text-uppercase">I am Mykola Shkit</h1>
                     <h4 class="title-text text-uppercase">Software Developer</h4>
@@ -111,12 +111,12 @@
     <section class="about-area" id="about-block">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 col-xs-12 ">
                     <div class="about-image">
                         <img src="./img/about-us.png" alt="About us" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 about-title">
+                <div class="col-lg-6 col-md-12 col-xs-12 about-title">
                     <h2 class="text-uppercase pt-5">
                         <span>Let me</span>
                         <span>introduce</span>
@@ -150,7 +150,7 @@
     <section class="brand-area">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-xs-12 ">
                     <div class="first-row row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="single-brand">
@@ -477,13 +477,13 @@
                 </div>
             </div>
             <div class="d-sm-flex justify-content-center">
-                <form class="w-50" action="/send" method="post" id="contact-form">
+                <form class="" action="/send" method="post" id="contact-form">
                     {{ csrf_field() }}
                     <div class="row d-flex flex-row flex-wrap">
-                        <div class="col-lg-8 col-sm-6 input-textbox">
+                        <div class="col-lg-8 col-sm-6 col-xs-12 input-textbox">
                             <input type="email" id="txtemail" class="form-control" placeholder="Email" name="email" style="width: 100%">
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
                             <div class="btn-submit float-left">
                                 <button type="submit" class="btn btn-success float-right">Send</button>
                             </div>
@@ -503,7 +503,7 @@
     <div class="container">
         <div class="">
             <div class="site-logo text-center py-4">
-                <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                <a href="#"><img src="./img/logo.png" alt="logo" class="img-fluid"></a>
             </div>
             <div class="copyrights text-center">
                 <p class="para">

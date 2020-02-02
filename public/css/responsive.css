@@ -1,8 +1,8 @@
 
 
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
+/* if the viewport is equal to 380px or less than that */
+@media only screen and (max-width: 380px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -26,10 +26,14 @@
         width: 13rem;
     }
 
+    .site-main .site-banner .site-title h1 {
+        font-size: 3rem;
+    }
+
 }
 
 
-/* if the viewport is equal to 340px or less than that */ 
+/* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
@@ -43,7 +47,7 @@
 
     .site-main .brand-area .experience-area .bg-panel{
         margin-left: 30%;
-        width: 80%;   
+        width: 80%;
     }
 
     .site-main .brand-area .experience-area .call-area{
@@ -66,7 +70,7 @@
 
 
 
-/* if the viewport is equal to 1910px or less than that */ 
+/* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
